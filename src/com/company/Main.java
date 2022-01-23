@@ -50,17 +50,16 @@ public class Main {
             loop = sc.nextInt();
             if(loop == 0) {
                 reset = false;
+                System.out.println("Programm wird beendet!");
             }
             else if(loop == 1) {
                 reset = true;
+                System.out.println("NEUSTART!");
             }
             else {
                 System.out.println("ERROR: Falsche Eingabe, Programm abgebrochen!");
                 reset = false;
             }
-
         } while(reset);
-
-        System.out.println("Programm wird beendet!");
     }
 }
