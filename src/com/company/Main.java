@@ -60,6 +60,6 @@ public class Main {
                 System.out.println("ERROR: Falsche Eingabe, Programm abgebrochen!");
                 reset = false;
             }
-        } while(reset);sss
+        } while(reset);
     }
 }
